@@ -28,4 +28,8 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+	
+	public void toString(){
+		System.out.println("输出");
+	}
 }
